@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> BRIEF IN JS</title>
+
+</head>
+
+<body> 
+
+
+    <p id="demo1"> </p> 
+    <p id="demo2"> </p> 
+
+    <p id="demo3"> </p>  
+    <p id="demo4"> </p> 
+    <p id="demo5"> </p>  
+    <p id="demo6"> </p> 
+    <p id="demo7"> </p> 
+    <p id="demo8"> </p> 
+
+
+
+
+<script> 
+var studentname="rawah"; 
+var grade=7; 
+var schoolname="kb high school"; 
+var mobilenumber=8801916594452; 
+var id=49928; 
+
+document.getElementById("demo1").innerHTML=studentname; 
+document.getElementById("demo2").innerHTML=grade; 
+document.getElementById("demo3").innerHTML=schoolname; 
+document.getElementById("demo4").innerHTML=mobilenumber; 
+document.getElementById("demo5").innerHTML=id;
+
+// promt the user for input// 
+
+let input=prompt('enter a value : ');
+
+
+
+//check the datatpe
+
+// isNaN() checks if the input isnt a number
+
+// type of determine the type of data
+
+//trim() removes extra spaces from input to ensure clean data
+
+if(!isNaN(input) && input.trim() !==""){ 
+
+
+input=Number(input);
+
+
+
+} 
+
+// detect the type
+let datatype=typeof(input); 
+
+
+document.write("you entered :",input);
+document.write("Data type :",datatype);
+
+</script>
+</body>
+
+</html>

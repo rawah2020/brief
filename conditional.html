@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>JS first class</title>
+
+</head>
+
+<body>
+<script> 
+let marks=prompt("enter mark: ") 
+
+marks_number=Number(marks)
+
+
+if (marks_number>=80 && marks_number<=100)
+{ 
+
+
+
+    document.write("grade A+"); 
+}  
+
+else if (marks_number>=70 && marks_number<=79)
+{ 
+
+
+
+    document.write("grade A");  
+
+}   
+
+else if (marks_number>=60 && marks_number<=69)
+{ 
+
+
+
+    document.write("grade A-"); 
+}  
+
+
+else if (marks_number>=50 && marks_number<=59)
+{ 
+
+
+
+    document.write("grade B+"); 
+}  
+else if (marks_number>=40 && marks_number<=49)
+{ 
+
+
+
+    document.write("grade C"); 
+}  
+else  
+{ 
+
+
+
+    document.write("invalid marks entered"); 
+} 
+
+//while loop 
+let number1=1; 
+let sum=0; 
+while (number1<=100) 
+{ 
+
+
+    sum=sum+number1 
+    number1++ 
+
+}
+document.write("<br");
+document.write("the sum of the number from 1 to 100 is : ", sum);
+
+
+// after class project 
+ 
+let randomnumber=math.random(); 
+document.write("random number between 0 to 1 ", randomnumber); 
+
+
+
+let min=1; 
+let max=100; 
+let randomnumber1=math.floor(math.random()*(max-min+1)+min); 
+
+document.write(randomnumber1);
+
+</script>
+</body>
+
+</html>
